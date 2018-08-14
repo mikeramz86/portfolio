@@ -1,65 +1,48 @@
+.hero-section {
+  background: url("../assets/boat-folding-origami-19678.jpg") 50% no-repeat;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 50px;
+}
 
-.hero-full-screen {
-    height: 100vh;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    background: url("https://images.pexels.com/photos/378273/pexels-photo-378273.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb") center center no-repeat;
-    background-size: cover;
+.hero-section .hero-section-text {
+  color: black;
+  /* text-shadow: 1px 1px 2px white; */
+}
+
+.hero-section h1 {
+    color: black;
+    font-size: 80px;
+}
+
+.mainIcon2 {
+  padding: 10px;
+}
+
+.company2 {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.herotxt {
+  font-size: 20px;
+}
+
+
+@media only screen and (max-width: 950px) {
+  .hero-section {
+      width: 100%;
   }
-  
-  .hero-full-screen .middle-content-section {
-    text-align: center;
-    color: #fefefe;
-  }
-  
-  .hero-full-screen .top-content-section {
-    width: 100%;
-  }
-  
-  .hero-full-screen .bottom-content-section {
-    padding: 1rem;
-  }
-  
-  .hero-full-screen .bottom-content-section svg {
-    height: 3.75rem;
-    width: 3.75rem;
-    fill: #fefefe;
-  }
-  
-  .hero-full-screen .top-bar {
-    background: transparent;
-  }
-  
-  .hero-full-screen .top-bar .menu {
-    background: transparent;
-  }
-  
-  .hero-full-screen .top-bar .menu-text {
-    color: #fefefe;
-  }
-  
-  .hero-full-screen .top-bar .menu li {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  
-  .hero-full-screen .top-bar .menu a {
-    color: #fefefe;
-    font-weight: bold;
-  }
-  
-  
+}
+

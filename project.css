@@ -1,7 +1,6 @@
 
 .box {
     /* height: 100vh; */
-    background-color: white;
     padding: 20px;
     margin-top: 10px;
   
@@ -20,11 +19,13 @@
 }
 
 .port-img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
     display: -webkit-flex;
     display: -ms-flexbox;
     -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+        align-items: center;
     -webkit-justify-content: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -63,3 +64,7 @@
         width: 100%;
     }
 }
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+  }

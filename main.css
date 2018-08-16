@@ -1,10 +1,35 @@
 * {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   box-sizing: border-box;
+
+}
+
+/* body {
+  background: url("./assets/ocean.png") 50% no-repeat;
+
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+      align-items: center;
+-webkit-justify-content: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+padding-bottom: 50px;
+
+} */
+
+body {
+  color: white;
+}
+
+html { 
+  background: url("./assets/brick.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .hero-section {
-  background: url("./assets/ocean.png") 50% no-repeat;
   background-size: cover;
   height: 100vh;
   width: 100%;
@@ -13,12 +38,13 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding-bottom: 50px;
+  -ms-flex-align: center;
+      align-items: center;
+-webkit-justify-content: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+padding-bottom: 50px;
+
 }
 
 .hero-section .hero-section-text {
@@ -70,6 +96,35 @@ p {
 
 /*------------------------------------------------------------------------------ */
 
+
+.btn {
+  display: inline-block;
+  background: transparent;
+  text-transform: uppercase;
+  /* font-weight: 500;
+  font-style: normal;
+  font-size: 0.625rem; */
+  font-weight: 900;
+  letter-spacing: 0.3em;
+  color: white;
+  border-radius: 0;
+  padding: 18px 80px 20px;
+  transition: all 0.7s ease-out;
+  background: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); 
+  background-position: 1% 50%;
+  background-size: 300% 300%;
+  margin: 0.625rem;
+  border: none;
+  border: 3px solid rgba(255,255,255,1);
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: black;
+  border: 1px solid rgba(223,190,106,0);
+  color: black;
+  background-position: 99% 50%;
+}
 
 
 

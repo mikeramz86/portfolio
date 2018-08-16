@@ -1,5 +1,6 @@
 * {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  box-sizing: border-box;
 }
 
 .hero-section {
@@ -69,14 +70,7 @@ p {
 
 /*------------------------------------------------------------------------------ */
 
-.box {
-  height: 100vh;
-  background-color: grey;
-  padding: 20px;
-  margin-top: 10px;
 
-
-}
 
 
 /*------------------------------------------------------------------------------ */
@@ -139,4 +133,21 @@ p {
 #lab_social_icon_footer #social-em:hover {
   color: #f39c12;
 }
+/*----------------- */
+.toggle {
+  display: flex;
+  margin-top: 50px;
+}
 
+.tech {
+  margin-top: 20px;
+}
+
+.movement {
+  margin: 20px;
+  text-align: center;
+}
+
+.work-link {
+  margin-top: 20px;
+}

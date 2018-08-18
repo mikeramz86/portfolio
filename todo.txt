@@ -1,0 +1,8 @@
+what to do
+- line colors for each project
+- write about
+- upload resume
+- finish adding tech stack
+- style project data
+- restyle morning ritual
+- merge

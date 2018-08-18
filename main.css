@@ -88,6 +88,8 @@ footer {
     color: white;
     text-align: center;
     background-color: grey;
+    z-index: 1;
+
 }
 
 /*------------------------------------------------------------------------------ */
@@ -112,8 +114,8 @@ ul.social-icons {
 .social-icons li {
     vertical-align: top;
     display: inline;
-    height: 100px;
 }
+
 .social-icons a {
     color: #fff;
     text-decoration: none;

@@ -14,12 +14,12 @@
 .port-section .port-img {
     margin: 0;
     max-width: 100%;
-    height: 80vh;
+    /* height: 80vh; */
     
 }
 
 .la {
-    height: 100vh;
+    height: 80vh;
 }
 
 .port-img {
@@ -34,6 +34,8 @@
         -ms-flex-pack: center;
             justify-content: center;
 }
+
+
 
 
 @media only screen and (min-width: 1200px) {
@@ -61,11 +63,23 @@
         width: 40%;
 
     }
+
+    footer {
+        margin-top: 100px;
+    }
 }
 
 @media only screen and (max-width: 1200px) {
     .port-section .project-data{
         width: 100%;
+    }
+
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .d {
+        margin-bottom: 200px;
     }
 }
 

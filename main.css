@@ -1,5 +1,5 @@
 * {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: proxima-nova, monospace;
   box-sizing: border-box;
 
 }
@@ -18,19 +18,11 @@ padding-bottom: 50px;
 } */
 
 body {
-  color: white;
+  color: black;
 }
 
-html { 
-  background: url("./assets/brick.jpg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 
 .hero-section {
-  background-size: cover;
   height: 100vh;
   width: 100%;
   text-align: center;
@@ -48,7 +40,7 @@ padding-bottom: 50px;
 }
 
 .hero-section .hero-section-text {
-  color: white;
+  color: black;
   /* text-shadow: 1px 1px 2px white; */
 }
 
@@ -80,51 +72,21 @@ padding-bottom: 50px;
 
 /*------------------------------------------------------------------------------ */
 
-#page-wrap { 
+/* #page-wrap { 
   max-width: 500px; 
   margin: 1rem auto;
   padding: 1rem;
-}
+} */
 
 h1, h2 {
   line-height: 1.2;
 }
 
-p { 
+/* p { 
   margin: 0 0 1rem 0; 
-}
+} */
 
 /*------------------------------------------------------------------------------ */
-
-
-.btn {
-  display: inline-block;
-  background: transparent;
-  text-transform: uppercase;
-  /* font-weight: 500;
-  font-style: normal;
-  font-size: 0.625rem; */
-  font-weight: 900;
-  letter-spacing: 0.3em;
-  color: white;
-  border-radius: 0;
-  padding: 18px 80px 20px;
-  transition: all 0.7s ease-out;
-  background: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); 
-  background-position: 1% 50%;
-  background-size: 300% 300%;
-  margin: 0.625rem;
-  border: none;
-  border: 3px solid rgba(255,255,255,1);
-  text-decoration: none;
-}
-
-.btn:hover {
-  color: black;
-  border: 1px solid rgba(223,190,106,0);
-  color: black;
-  background-position: 99% 50%;
-}
 
 
 
@@ -206,3 +168,10 @@ p {
 .work-link {
   margin-top: 20px;
 }
+
+
+/* @media only screen and (max-width: 440px) {
+  .hero-section{
+    max-width: 80%;
+  }
+} */

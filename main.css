@@ -4,19 +4,6 @@
 
 }
 
-/* body {
-  background: url("./assets/ocean.png") 50% no-repeat;
-
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-      align-items: center;
--webkit-justify-content: center;
-  -ms-flex-pack: center;
-      justify-content: center;
-padding-bottom: 50px;
-
-} */
-
 body {
   color: black;
 }
@@ -41,12 +28,12 @@ padding-bottom: 50px;
 
 .hero-section .hero-section-text {
   color: black;
-  /* text-shadow: 1px 1px 2px white; */
+  overflow: hidden;
 }
 
 .hero-section h1 {
     color: black;
-    font-size: 80px;
+    font-size: 35px;
 }
 
 .mainIcon2 {
@@ -62,6 +49,13 @@ padding-bottom: 50px;
   font-size: 20px;
 }
 
+main {
+  margin-bottom: 20px;
+}
+
+.project-data c {
+  margin-bottom: 20px;
+}
 
 @media only screen and (max-width: 950px) {
   .hero-section {
@@ -72,19 +66,11 @@ padding-bottom: 50px;
 
 /*------------------------------------------------------------------------------ */
 
-/* #page-wrap { 
-  max-width: 500px; 
-  margin: 1rem auto;
-  padding: 1rem;
-} */
 
 h1, h2 {
   line-height: 1.2;
 }
 
-/* p { 
-  margin: 0 0 1rem 0; 
-} */
 
 /*------------------------------------------------------------------------------ */
 
@@ -92,63 +78,95 @@ h1, h2 {
 
 /*------------------------------------------------------------------------------ */
 
-.footer {
+footer {
+    margin-top: 20px;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: red;
+    /* height: 50px; */
     color: white;
     text-align: center;
+    background-color: grey;
 }
 
 /*------------------------------------------------------------------------------ */
 
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
-#lab_social_icon_footer {
-  top: 500px;
-  padding: 40px 0;
-  background-color: #dedede;
+
+ul {
+    padding:0;
+    list-style: none;
+}
+.footer-social-icons {
+    display:block;
+    margin: 0 auto;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
 }
 
-#lab_social_icon_footer a {
-  color: #333;
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+.fa-instagram {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-instagram:hover {
+    background-color: #eb8231;
 }
 
-#lab_social_icon_footer .social:hover {
-  -webkit-transform: scale(1.1);
-  -moz-transform: scale(1.1);
-  -o-transform: scale(1.1);
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
 }
-
-#lab_social_icon_footer .social {
-  -webkit-transform: scale(0.8);
-  /* Browser Variations: */
-  
-  -moz-transform: scale(0.8);
-  -o-transform: scale(0.8);
-  -webkit-transition-duration: 0.5s;
-  -moz-transition-duration: 0.5s;
-  -o-transition-duration: 0.5s;
+.fa-linkedin:hover {
+    background-color: #0073a4;
 }
-/*
-    Multicoloured Hover Variations
-*/
-
-#lab_social_icon_footer #social-fb:hover {
-  color: #3B5998;
+.fa-github {
+    padding:10px 9px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
 }
-
-#lab_social_icon_footer #social-tw:hover {
-  color: #4099FF;
-}
-
-#lab_social_icon_footer #social-gp:hover {
-  color: #d34836;
-}
-
-#lab_social_icon_footer #social-em:hover {
-  color: #f39c12;
+.fa-github:hover {
+    background-color: #e25714;
 }
 /*----------------- */
 .toggle {
@@ -170,8 +188,15 @@ h1, h2 {
 }
 
 
-/* @media only screen and (max-width: 440px) {
-  .hero-section{
-    max-width: 80%;
+@media only screen and (min-width: 320px) {
+  .company2 {
+    font-size: 20px;
   }
-} */
+
+  .herotxt {
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+}

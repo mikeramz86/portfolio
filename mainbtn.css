@@ -4,13 +4,13 @@ a {
 
   
   .portfolio-experiment a {
-    margin: 20px;
+    margin: 10px;
     color: black;
     padding: 0.7em calc(0.7em * 1.2);
     display: inline-block;
     border: 3px solid transparent;
     position: relative;
-    font-size: 1.5em;
+    font-size: 1em;
     cursor: pointer;
     letter-spacing: 0.07em;
   }

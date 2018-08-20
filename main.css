@@ -8,6 +8,20 @@ body {
   color: black;
 }
 
+.bio {
+  margin-top: 40px;
+  font-size: 25px;
+}
+
+.resume {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.work-link {
+  font-weight: bold;
+}
+
 
 .hero-section {
   height: 100vh;

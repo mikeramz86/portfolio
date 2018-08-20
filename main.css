@@ -8,14 +8,10 @@ body {
   color: black;
 }
 
-.bio {
-  margin-top: 40px;
-  font-size: 25px;
-}
+
 
 .resume {
   font-weight: bold;
-  font-size: 20px;
 }
 
 .work-link {
@@ -213,6 +209,16 @@ ul.social-icons {
     margin-left: auto;
     margin-right: auto;
 
+  }
+
+  .bio {
+    margin-top: 40px;
+    font-size: 1em;
+  }
+  
+  .resume {
+    font-weight: bold;
+    font-size: 1em;
   }
 
 }

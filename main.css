@@ -19,6 +19,14 @@ body {
 }
 
 
+.movement:hover {
+  background-color: grey;
+  color: white;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+
 .hero-section {
   height: 100vh;
   width: 100%;
@@ -29,7 +37,7 @@ body {
   -webkit-align-items: center;
   -ms-flex-align: center;
       align-items: center;
--webkit-justify-content: center;
+  -webkit-justify-content: center;
   -ms-flex-pack: center;
       justify-content: center;
 padding-bottom: 150px;
@@ -207,6 +215,10 @@ ul.social-icons {
 @media only screen and (min-width: 320px) {
   .company2 {
     font-size: 20px;
+  }
+
+  h2 {
+    font-size: 15px;
   }
 
   .herotxt {

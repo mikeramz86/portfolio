@@ -222,13 +222,14 @@ ul.social-icons {
   }
 
   .herotxt {
+    /* margin-top: 20px; */
     margin-left: auto;
     margin-right: auto;
 
   }
 
   .bio {
-    margin-top: 40px;
+    /* margin-top: 20px; */
     font-size: 1em;
   }
   

@@ -1,11 +1,12 @@
 * {
-  font-family: proxima-nova, monospace;
+  font-family: 'Space Grotesk', sans-serif;
   box-sizing: border-box;
 
 }
 
 body {
   color: black;
+
 }
 
 
@@ -42,6 +43,12 @@ body {
       justify-content: center;
 padding-bottom: 150px;
 
+}
+
+.idea {
+  width: 25%;
+  height: 25%;
+  object-fit: contain;
 }
 
 .hero-section .hero-section-text {
